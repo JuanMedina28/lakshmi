@@ -1,0 +1,151 @@
+.btn-wsp{
+    position:fixed;
+    width:60px;
+    height:60px;
+    line-height: 63px;
+    bottom:25px;
+    right:25px;
+    background:#25d366;
+    color:#FFF;
+    border-radius:50px;
+    text-align:center;
+    font-size:35px;
+    box-shadow: 0px 1px 10px rgba(0,0,0,0.3);
+    z-index:100;
+    transition: all 300ms ease;
+    text-decoration: none;
+}
+.btn-wsp:hover{
+    text-decoration: none;
+    background: #20ba5a;
+    color: #fff;
+    width:65px;
+    height:65px;
+}
+
+#local {
+    background-color: #f3f3f3;
+}
+
+.mapa {
+    width:100%;
+    height:auto;
+}
+.wrapper-local {
+    width:70%;;
+}
+
+
+@media only screen and (min-width:320px) and (max-width:768px){
+    .btn-wsp{
+        width:63px;
+        height:63px;
+        line-height: 66px;
+	}
+}
+
+a{
+    text-decoration: none;
+}
+
+/* ################################ Menú ####################################*/
+.bg-bar{
+    background-color: #f8bc00;
+}
+
+.active{
+    color: #e85045;
+}
+.btn-lak:hover{
+    text-decoration: none;
+    color: #e85045;
+}
+
+/* ############################## Slide Principal #########################*/
+#principal{
+   background-color: #f8bc00;
+}
+
+.lakshmi{
+    color: #e85045;
+    font-weight: bold;
+}
+.about {
+    background: linear-gradient(rgba(0, 0, 0, .1), rgba(0, 0, 0, .1)), url(../assets/ini1.jpg) left center no-repeat;
+    background-size: cover;
+    max-height:35rem !important;
+}
+#logo_sl{
+    max-height:18rem !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+}
+
+
+/*=========================MEDIA QUERIES PANTALLA ANCHA================================*/
+
+@media (max-width:1200px){
+    #intro, #equipo {
+        width:90% !important;
+        margin:auto;
+    }
+  
+    #local {
+        flex-wrap: wrap;
+        padding-top:30px;
+   }
+   .wrapper-local {
+    width:90%;
+    margin:auto;    
+   }
+ 
+}
+/*=========================MEDIA QUERIES PANTALLA SM================================*/
+
+
+@media (max-width:768px) {
+
+    #intro, #equipo{
+        width:90% !important;
+        margin:auto;
+    }
+
+    
+    #img-equipo{
+        max-height:20rem !important;
+        width:90%;
+    }
+    .wrapper-local {
+        width:90%;
+        margin:auto;   
+    }
+    #local {
+        flex-wrap: wrap;
+    }
+    .mapa img {
+        width:100%;
+        height:auto;
+    }
+    #bg-contactos{
+        top: -120px;
+    }
+
+
+}
+/*=========================MEDIA QUERIES PANTALLA EXTRA-SM================================*/
+
+@media (max-width: 576px) {
+    #servicios-fila-2 {
+        width:100% !important;
+    }
+    #servicios-fila-1 {
+        width:100% !important;
+    }
+
+    .icono-wrap{
+        flex-wrap:wrap !important;
+        justify-content: center !important;
+        text-align: center;
+    }
+}
+
