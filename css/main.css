@@ -53,9 +53,6 @@ a{
     background-color: #f8bc00;
 }
 
-.active{
-    color: #e85045;
-}
 .btn-lak:hover{
     text-decoration: none;
     color: #e85045;
@@ -64,6 +61,10 @@ a{
 /* ############################## Slide Principal #########################*/
 #principal{
    background-color: #f8bc00;
+}
+
+.carousel-inner {
+    max-height:38rem !important;
 }
 
 .lakshmi{
